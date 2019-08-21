@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b9640c2d53664bcabaa078e74434e860
+timeCreated: 1566401209
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "MaximaCyrTCYLigCom"
+  fontNames:
+  - MaximaCyrTCYLigCom
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

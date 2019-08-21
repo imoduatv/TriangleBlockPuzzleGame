@@ -1,0 +1,6 @@
+public enum AMN_InAppType
+{
+	CONSUMABLE,
+	ENTITLED,
+	SUBSCRIPTION
+}

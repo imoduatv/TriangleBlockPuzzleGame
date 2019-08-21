@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 871196ab206450b85c7d0b6a744b8e77, type: 3}
+  m_Name: "DataTest"
+  m_EditorClassIdentifier: 
+  m_Money: 20000
+  m_Score: 0
+  m_HighScore: 0
+  m_IsSound: 1
+  m_IsNoAds: 0
+  m_PlayCount: 0
+  m_IsUnlockThemes: 01010001000000000000000000000000
+  m_CurrentTheme: 1

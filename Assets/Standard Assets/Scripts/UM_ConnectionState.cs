@@ -1,0 +1,7 @@
+public enum UM_ConnectionState
+{
+	UNDEFINED,
+	CONNECTING,
+	CONNECTED,
+	DISCONNECTED
+}

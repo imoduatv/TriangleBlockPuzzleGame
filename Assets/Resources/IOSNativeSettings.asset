@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7cb80240ee1cb6a91a22ba8b6be539, type: 3}
+  m_Name: "IOSNativeSettings"
+  m_EditorClassIdentifier: 
+  EnableGameCenterAPI: 1
+  EnableInAppsAPI: 1
+  EnableCameraAPI: 1
+  EnableSocialSharingAPI: 1
+  EnablePickerAPI: 0
+  EnableMediaPlayerAPI: 0
+  EnableReplayKit: 0
+  EnableCloudKit: 0
+  EnableSoomla: 0
+  EnableGestureAPI: 0
+  EnableForceTouchAPI: 0
+  EnablePushNotificationsAPI: 0
+  EnableContactsAPI: 0
+  EnableAppEventsAPI: 0
+  EnableUserNotificationsAPI: 0
+  EnablePermissionAPI: 0
+  AppleId: "XXXXXXXXX"
+  ToolbarIndex: 0
+  ExpandMoreActionsMenu: 1
+  ExpandModulesSettings: 1
+  InAppsEditorTesting: 1
+  CheckInternetBeforeLoadRequest: 0
+  PromotedPurchaseSupport: 1
+  TransactionsHandlingMode: 0
+  DefaultStoreProductsView: []
+  InAppProducts:
+  - IsOpen: 0
+    _IsAvailable: 0
+    _Id: "premium_pack_trigon"
+    _DisplayName: "premium_trigon"
+    _Description: 
+    _Price: 0.99
+    _LocalizedPrice: 
+    _CurrencySymbol: "$"
+    _CurrencyCode: "USD"
+    _Texture: {fileID: 0}
+    _ProductType: 1
+    _PriceTier: 4
+  - IsOpen: 0
+    _IsAvailable: 0
+    _Id: "trigon_diamond1"
+    _DisplayName: "1k diamonds"
+    _Description: 
+    _Price: 0.99
+    _LocalizedPrice: 
+    _CurrencySymbol: "$"
+    _CurrencyCode: "USD"
+    _Texture: {fileID: 0}
+    _ProductType: 0
+    _PriceTier: 1
+  - IsOpen: 0
+    _IsAvailable: 0
+    _Id: "trigon_diamond2"
+    _DisplayName: "5k diamonds"
+    _Description: 
+    _Price: 0.99
+    _LocalizedPrice: 
+    _CurrencySymbol: "$"
+    _CurrencyCode: "USD"
+    _Texture: {fileID: 0}
+    _ProductType: 0
+    _PriceTier: 4
+  - IsOpen: 0
+    _IsAvailable: 0
+    _Id: "no_ads_trigon"
+    _DisplayName: "no_ads_trigon"
+    _Description: 
+    _Price: 0.99
+    _LocalizedPrice: 
+    _CurrencySymbol: "$"
+    _CurrencyCode: "USD"
+    _Texture: {fileID: 0}
+    _ProductType: 1
+    _PriceTier: 4
+  ShowStoreKitProducts: 1
+  Leaderboards:
+  - IsOpen: 1
+    _info:
+      Title: "LB_Tri"
+      Description: 
+      Identifier: "trigon_lb"
+      Texture: {fileID: 0}
+      MaxRange: 0
+  - IsOpen: 1
+    _info:
+      Title: "trigon_lb"
+      Description: 
+      Identifier: "trigon_lb"
+      Texture: {fileID: 0}
+      MaxRange: 0
+  Achievements: []
+  UseGCRequestCaching: 0
+  UsePPForAchievements: 0
+  AutoLoadUsersSmallImages: 1
+  AutoLoadUsersBigImages: 0
+  ShowLeaderboards: 1
+  ShowAchievementsParams: 1
+  AdEditorTesting: 1
+  EditorFillRateIndex: 4
+  EditorFillRate: 100
+  MaxImageLoadSize: 512
+  JPegCompressionRate: 0.8
+  GalleryImageFormat: 1
+  RPK_iPadViewType: 0
+  CameraUsageDescription: "for making pictures"
+  PhotoLibraryUsageDescription: "for taking pictures"
+  AppleMusicUsageDescription: "for playing music"
+  ContactsUsageDescription: "for contacts reading"
+  UrlTypes: []
+  ApplicationQueriesSchemes: []
+  ForceTouchMenu: []
+  DisablePluginLogs: 0
+  SoomlaDownloadLink: "http:\x2f\x2fgoo.gl\x2f7LYwuj"
+  SoomlaDocsLink: "https:\x2f\x2fgoo.gl\x2fJFkpNa"
+  SoomlaGameKey: 
+  SoomlaEnvKey: 
+  OneSignalEnabled: 0
+  OneSignalDocsLink: "https:\x2f\x2fgoo.gl\x2fRoyty6"

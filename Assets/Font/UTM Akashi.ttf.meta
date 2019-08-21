@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b78f2c0569cd4e9d8b9f28246f25415e
+timeCreated: 1566401230
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "UTM Akashi"
+  fontNames:
+  - UTM Akashi
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

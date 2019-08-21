@@ -1,0 +1,8 @@
+public enum MNT_RoomState
+{
+	EMPTY,
+	CREATED,
+	CONNECTED,
+	GAME_STARTED,
+	CLOSED
+}

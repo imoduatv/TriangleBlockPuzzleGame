@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a4a909449bc024f00a4883e7f3385a0, type: 3}
+  m_Name: "MaterialData"
+  m_EditorClassIdentifier: 
+  grayScaleFlat: {fileID: 2100000, guid: e24cc3c1dfb04e1fa670b4b0d7c7925d, type: 2}
+  grayScaleColor: {fileID: 2100000, guid: 2d670dd8d6514f2abcb1a98372edb56b, type: 2}

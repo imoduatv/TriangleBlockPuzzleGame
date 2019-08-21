@@ -1,0 +1,25 @@
+public enum ThemeName
+{
+	Day,
+	Night,
+	Ice,
+	Soft,
+	Bee,
+	Cat,
+	Baby,
+	Candy,
+	Forest,
+	Summer,
+	BlackWhite,
+	Purple,
+	Season,
+	Space,
+	Ocean,
+	Farm,
+	Xmas,
+	City,
+	Mountain,
+	Sea,
+	Pyramid,
+	ThemeLength
+}

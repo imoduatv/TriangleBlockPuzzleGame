@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42a0611b8165bcd0d5e829359006c31, type: 3}
+  m_Name: "AndroidNativeSettings"
+  m_EditorClassIdentifier: 
+  EnablePlusAPI: 1
+  EnableGamesAPI: 1
+  EnableAppInviteAPI: 1
+  EnableDriveAPI: 0
+  LoadProfileIcons: 1
+  LoadProfileImages: 0
+  LoadQuestsImages: 1
+  LoadQuestsIcons: 1
+  LoadEventsIcons: 1
+  ShowConnectingPopup: 1
+  AutoLoadLocalPlayerScore: 0
+  GoogleFitEnabled: 0
+  EnableATCSupport: 0
+  OneSignalEnabled: 0
+  OneSignalAppID: "YOUR_ONESIGNAL_APP_ID"
+  OneSignalDownloadLink: "https:\x2f\x2fgoo.gl\x2fVc6tfK"
+  OneSignalDocLink: "https:\x2f\x2fgoo.gl\x2faZjkxV"
+  UseParsePushNotifications: 0
+  ParseAppId: "YOUR_PARSE_APP_ID"
+  DotNetKey: "YOUR_PARSE_DOT_NET_KEY"
+  ParseDocLink: "http:\x2f\x2fgoo.gl\x2f9BgQ8r"
+  ParseDownloadLink: "https:\x2f\x2fgoo.gl\x2fdm7jYL"
+  DialogTheme: 0
+  EnableSoomla: 0
+  SoomlaDownloadLink: "http:\x2f\x2fgoo.gl\x2f7LYwuj"
+  SoomlaDocsLink: "https:\x2f\x2fgoo.gl\x2fes5j1N"
+  SoomlaGameKey: 
+  SoomlaEnvKey: 
+  Ad_EditorFillRateIndex: 4
+  Ad_EditorFillRate: 100
+  Is_Ad_EditorTestingEnabled: 1
+  InApps_EditorFillRateIndex: 4
+  InApps_EditorFillRate: 100
+  Is_InApps_EditorTestingEnabled: 1
+  Is_Leaderboards_Editor_Notifications_Enabled: 1
+  Is_Achievements_Editor_Notifications_Enabled: 1
+  GCM_SenderId: "YOUR_SENDER_ID_HERE"
+  PushService: 0
+  SaveCameraImageToGallery: 0
+  UseProductNameAsFolderName: 1
+  GalleryFolderName: "Trigon"
+  MaxImageLoadSize: 512
+  CameraCaptureMode: 0
+  ImageFormat: 0
+  ShowAppPermissions: 1
+  EnableBillingAPI: 1
+  EnablePSAPI: 0
+  EnableSocialAPI: 1
+  EnableCameraAPI: 0
+  ExpandNativeAPI: 1
+  ExpandPSAPI: 1
+  ExpandBillingAPI: 1
+  ExpandSocialAPI: 1
+  ExpandCameraAPI: 0
+  ThirdPartyParams: 0
+  ShowPSSettingsResources: 0
+  ShowActions: 0
+  GCMSettingsActinve: 0
+  LocalNotificationsAPI: 0
+  ImmersiveModeAPI: 0
+  ApplicationInformationAPI: 0
+  ExternalAppsAPI: 0
+  PoupsandPreloadersAPI: 1
+  CheckAppLicenseAPI: 0
+  NetworkStateAPI: 0
+  FirebaseAnalytics: 0
+  FirebaseDynamicLinks: 0
+  FirebaseAppId: 
+  FirebaseApiKey: 
+  DynamicLinks: []
+  InAppPurchasesAPI: 1
+  GooglePlayServicesAPI: 0
+  PlayServicesAdvancedSignInAPI: 0
+  GoogleButtonAPI: 0
+  AnalyticsAPI: 0
+  GoogleCloudSaveAPI: 0
+  PushNotificationsAPI: 0
+  GoogleMobileAdAPI: 0
+  GoogleOAuthAPI: 0
+  GalleryAPI: 0
+  CameraAPI: 0
+  KeepManifestClean: 1
+  GooglePlayServiceAppID: "627169055054"
+  ToolbarSelectedIndex: 0
+  base64EncodedPublicKey: "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhwb3X7Xju4MIbWTpGra4eA+7EjDq10WfnWe8pAricA5X2ly88NOrWU27BH7Y005hUUoyU4Sm92qi8YmM4uQHwkLVA587snsCRxSmV\x2fJgp72mLu0CSWIFWWgoCrznXUzg5+2DbtSl2mYIBLUFlFPIfHLqFMy0Tz7A4jFgOcZNpdessSApNLu2bdKegcWrfMXhXSmOXYeyKfsHZucRl+RVqB7TaVkcEOpq3kdNme\x2fJsrJvnLLNY+GciamZdhJoUYcU1mZHseYg9xYm4lLbAVI22MRkA6QB8uOYRsCcbHcHi9phroypwO+WGZ4GuGvXHOmXViyfw5zreyTfVWqU1i2MNQIDAQAB"
+  ShowStoreProducts: 1
+  InAppProducts:
+  - IsOpen: 1
+    SKU: "premium_pack_trigon"
+    _LocalizedPrice: "0$"
+    _PriceAmountMicros: 0
+    _PriceCurrencyCode: "USD"
+    _Description: 
+    _Title: "premium_trigon"
+    _Texture: {fileID: 0}
+    _ProductType: 1
+  - IsOpen: 1
+    SKU: "com.dta.diamond1"
+    _LocalizedPrice: "0$"
+    _PriceAmountMicros: 0
+    _PriceCurrencyCode: "USD"
+    _Description: 
+    _Title: "1k diamonds"
+    _Texture: {fileID: 0}
+    _ProductType: 0
+  - IsOpen: 1
+    SKU: "com.dta.diamond2"
+    _LocalizedPrice: "0$"
+    _PriceAmountMicros: 0
+    _PriceCurrencyCode: "USD"
+    _Description: 
+    _Title: "5k diamonds"
+    _Texture: {fileID: 0}
+    _ProductType: 0
+  - IsOpen: 1
+    SKU: "no_ads_trigon"
+    _LocalizedPrice: "0$"
+    _PriceAmountMicros: 0
+    _PriceCurrencyCode: "USD"
+    _Description: 
+    _Title: "no_ads_trigon"
+    _Texture: {fileID: 0}
+    _ProductType: 1
+  ShowLeaderboards: 1
+  Leaderboards:
+  - IsOpen: 1
+    _id: "CgkIzqLBsaASEAIQAQ"
+    _name: "LB_Tri"
+    _description: 
+    _Texture: {fileID: 0}
+  ShowAchievements: 0
+  Achievements:
+  - IsOpen: 0
+    _id: 
+    _name: "\x01\0"
+    _description: 
+    _Texture: {fileID: 2800000, guid: b58ad35449e84ee7957325b85e793b6d, type: 3}
+  ShowWhenAppIsForeground: 0
+  EnableVibrationLocal: 0
+  LocalNotificationSmallIcon: {fileID: 0}
+  LocalNotificationLargeIcon: {fileID: 0}
+  LocalNotificationSound: {fileID: 0}
+  LocalNotificationWakeLockTimer: 0
+  ReplaceOldNotificationWithNew: 0
+  ShowPushWhenAppIsForeground: 0
+  EnableVibrationPush: 0
+  PushNotificationColor: {r: 0, g: 0, b: 0, a: 0}
+  PushNotificationSmallIcon: 

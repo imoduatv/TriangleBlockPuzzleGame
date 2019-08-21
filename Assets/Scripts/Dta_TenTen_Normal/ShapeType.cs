@@ -1,0 +1,25 @@
+namespace Dta.TenTen.Normal
+{
+	public enum ShapeType
+	{
+		SINGLE,
+		SQUARE,
+		HORIZONTAL2,
+		HORIZONTAL3,
+		HORIZONTAL4,
+		HORIZONTAL5,
+		VERTICAL2,
+		VERTICAL3,
+		VERTICAL4,
+		VERTICAL5,
+		LEFT_L3,
+		RIGHT_L3,
+		DOWN_L3,
+		UP_L3,
+		RIGHT_L5,
+		LEFT_L5,
+		DOWN_L5,
+		UP_L5,
+		THREEXTHREE
+	}
+}

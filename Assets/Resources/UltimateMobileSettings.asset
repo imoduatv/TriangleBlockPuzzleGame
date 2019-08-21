@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31f69eff5469e71982a7ed5db8306d41, type: 3}
+  m_Name: "UltimateMobileSettings"
+  m_EditorClassIdentifier: 
+  ToolbarSelectedIndex: 0
+  InAppProducts:
+  - IsOpen: 1
+    id: "premium_trigon"
+    Type: 1
+    PriceTier: 4
+    Texture: {fileID: 0}
+    DisplayName: "premium_trigon"
+    Description: 
+    IOSId: "premium_pack_trigon"
+    AndroidId: "premium_pack_trigon"
+    WP8Id: 
+    AmazonId: 
+  - IsOpen: 1
+    id: "diamond_pack_1k"
+    Type: 0
+    PriceTier: 1
+    Texture: {fileID: 0}
+    DisplayName: "1k diamonds"
+    Description: 
+    IOSId: "trigon_diamond1"
+    AndroidId: "com.dta.diamond1"
+    WP8Id: 
+    AmazonId: 
+  - IsOpen: 1
+    id: "diamond_pack_5k"
+    Type: 0
+    PriceTier: 4
+    Texture: {fileID: 0}
+    DisplayName: "5k diamonds"
+    Description: 
+    IOSId: "trigon_diamond2"
+    AndroidId: "com.dta.diamond2"
+    WP8Id: 
+    AmazonId: 
+  - IsOpen: 1
+    id: "no_ads_triangle_gridfit"
+    Type: 1
+    PriceTier: 4
+    Texture: {fileID: 0}
+    DisplayName: "no_ads_trigon"
+    Description: 
+    IOSId: "no_ads_trigon"
+    AndroidId: "no_ads_trigon"
+    WP8Id: 
+    AmazonId: 
+  TransactionsHandlingMode: 0
+  InApps_EditorFillRateIndex: 4
+  InApps_EditorFillRate: 100
+  Is_InApps_EditorTestingEnabled: 1
+  IsInAppSettingsProductsOpen: 1
+  Leaderboards:
+  - id: "LB_Tri"
+    IsOpen: 1
+    IOSId: "trigon_lb"
+    AndroidId: "CgkIzqLBsaASEAIQAQ"
+    AmazonId: "new leaderboard1"
+    _Description: 
+    _Texture: {fileID: 0}
+  Achievements: []
+  AutoLoadUsersSmallImages: 1
+  AutoLoadUsersBigImages: 0
+  AutoLoadLeaderboardsInfo: 1
+  AutoLoadAchievementsInfo: 1
+  IsAchievementsOpen: 1
+  IsLeaderBoardsOpen: 1
+  IOSAdEdngine: 1
+  WP8AdEdngine: 0
+  IsCameraAndGallerySettingsOpen: 1
+  IsCameraAndGalleryAndroidSettingsOpen: 0
+  IsCameraAndGalleryIOSSettingsOpen: 0
+  IsLP_Android_SettingsOpen: 0
+  IsLP_IOS_SettingsOpen: 0
+  TP_Android_SettingsOpen: 0
+  TP_IOS_SettingsOpen: 0
+  PlatformEngine: 0
