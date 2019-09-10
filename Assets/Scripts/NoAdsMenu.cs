@@ -146,14 +146,14 @@ public class NoAdsMenu : MenuUI
 	{
 		SetUI(m_BackgroundImg, dictThemeElement["Background"]);
 		m_BackgroundImg.sprite = dictThemeElement["Background"].SpriteUI;
-		SetUI(m_BackBtn, dictThemeElement["BackBtn"]);
-		SetUI(m_RemoveAdsPanel, dictThemeElement["RemoveAdsPanel"]);
-		SetUI(m_PremiumPanel, dictThemeElement["PremiumPanel"]);
-		SetUI(m_BackIcon, dictThemeElement["BackIcon"]);
-		SetUI(m_Pack1kPanel, dictThemeElement["Pack1kPanel"]);
-		SetUI(m_Pack5kPanel, dictThemeElement["Pack5kPanel"]);
-		SetUI(m_TxtRemoveAds, dictThemeElement["BackBtn"]);
-		Text[] textArr = m_TextArr;
+        //SetUI(m_BackBtn, dictThemeElement["BackBtn"]);
+        SetUI(m_RemoveAdsPanel, dictThemeElement["RemoveAdsPanel"]);
+        SetUI(m_PremiumPanel, dictThemeElement["PremiumPanel"]);
+        //SetUI(m_BackIcon, dictThemeElement["BackIcon"]);
+        SetUI(m_Pack1kPanel, dictThemeElement["Pack1kPanel"]);
+        SetUI(m_Pack5kPanel, dictThemeElement["Pack5kPanel"]);
+        SetUI(m_TxtRemoveAds, dictThemeElement["BackBtn"]);
+        Text[] textArr = m_TextArr;
 		foreach (Text text in textArr)
 		{
 			SetUI(text, dictThemeElement["Text"]);

@@ -31,7 +31,7 @@ public class MenuUI : MonoBehaviour, IMenuUI
 		{
 			image.sprite = themeElement.SpriteUI;
 		}
-		image.color = themeElement.ColorUI;
+		//image.color = themeElement.ColorUI;
 	}
 
 	public void SetUI(Text text, ThemeElement themeElement)

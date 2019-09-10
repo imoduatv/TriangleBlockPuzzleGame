@@ -142,22 +142,22 @@ public class PauseMenu : MenuUI
 
 	public override void SetThemeUI(Dictionary<string, ThemeElement> dictThemeElement)
 	{
-		SetUI(m_HomeBtnImg, dictThemeElement["HomeBtn"]);
-		SetUI(m_RestartBtnImg, dictThemeElement["RestartBtn"]);
-		SetUI(m_ResumeBtnImg, dictThemeElement["ResumeBtn"]);
-		SetUI(m_ShopBtnImg, dictThemeElement["ShopBtn"]);
-		SetUI(m_NoAdsBtnImg, dictThemeElement["NoAdsBtn"]);
-		SetUI(m_BackgroundImg, dictThemeElement["Background"]);
-		SetUI(m_RestartIcon, dictThemeElement["RestartIcon"]);
-		SetUI(m_ResumeIcon, dictThemeElement["ResumeIcon"]);
-		SetUI(m_HomeIcon, dictThemeElement["HomeIcon"]);
-		SetUI(m_ShopIcon, dictThemeElement["ShopIcon"]);
-		m_BackgroundColor = dictThemeElement["Background"].ColorUI;
+        SetUI(m_HomeBtnImg, dictThemeElement["HomeBtn"]);
+        SetUI(m_RestartBtnImg, dictThemeElement["RestartBtn"]);
+        SetUI(m_ResumeBtnImg, dictThemeElement["ResumeBtn"]);
+        SetUI(m_ShopBtnImg, dictThemeElement["ShopBtn"]);
+        SetUI(m_NoAdsBtnImg, dictThemeElement["NoAdsBtn"]);
+        SetUI(m_BackgroundImg, dictThemeElement["Background"]);
+        SetUI(m_RestartIcon, dictThemeElement["RestartIcon"]);
+        SetUI(m_ResumeIcon, dictThemeElement["ResumeIcon"]);
+        SetUI(m_HomeIcon, dictThemeElement["HomeIcon"]);
+        SetUI(m_ShopIcon, dictThemeElement["ShopIcon"]);
+        m_BackgroundColor = dictThemeElement["Background"].ColorUI;
 		alphaBGMax = m_BackgroundColor.a;
-		m_SoundColor = dictThemeElement["SettingBtn"].ColorUI;
-		m_SoundOn = dictThemeElement["SoundOn"];
-		m_SoundOff = dictThemeElement["SoundOff"];
-		m_SoundBtnImg.color = m_SoundColor;
+        m_SoundColor = dictThemeElement["SettingBtn"].ColorUI;
+        m_SoundOn = dictThemeElement["SoundOn"];
+        m_SoundOff = dictThemeElement["SoundOff"];
+        m_SoundBtnImg.color = m_SoundColor;
 	}
 
 	public void SetImgSound(bool isSoundOn)

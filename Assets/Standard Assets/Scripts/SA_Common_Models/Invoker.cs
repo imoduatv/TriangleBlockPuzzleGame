@@ -19,8 +19,8 @@ namespace SA.Common.Models
 
 		public void StartInvoke(Action callback, float time)
 		{
-			_callback = callback;
-			Invoke("TimeOut", time);
+			//_callback = callback;
+			//Invoke("TimeOut", time);
 		}
 
 		private void TimeOut()

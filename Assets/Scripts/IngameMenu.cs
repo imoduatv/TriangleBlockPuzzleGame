@@ -222,23 +222,23 @@ public class IngameMenu : MenuUI
 
 	public override void SetThemeUI(Dictionary<string, ThemeElement> dictThemeElement)
 	{
-		SetUI(m_BackgroundImg, dictThemeElement["Background"]);
-		m_BackgroundImg.sprite = dictThemeElement["Background"].SpriteUI;
-		SetUI(m_TrophyImg, dictThemeElement["Trophy"]);
-		SetUI(m_HighScoreTxt, dictThemeElement["HighScoreTxt"]);
-		SetUI(m_MoneyTxt1, dictThemeElement["MoneyTxt"]);
-		SetUI(m_MoneyTxt2, dictThemeElement["MoneyTxt"]);
-		SetUI(m_ScoreTxt, dictThemeElement["ScoreTxt"]);
-		SetUI(m_PauseBtnImg, dictThemeElement["PauseBtn"]);
-		SetUI(m_MoneyPanel1, dictThemeElement["MoneyPanel"]);
-		SetUI(m_MoneyPanel2, dictThemeElement["MoneyPanel2"]);
-		m_MoneyPanel2.color = m_MoneyPanel.color;
-		SetUI(m_ThemeIconImg, dictThemeElement["ThemeIcon"]);
-		SetUI(m_GiftBot, dictThemeElement["GiftBot"]);
-		SetUI(m_GiftTop, dictThemeElement["GiftTop"]);
-		SetUI(m_CostSkill3, dictThemeElement["CostSkillTxt"]);
-		SetUI(m_CostSkillUndo, dictThemeElement["CostSkillTxt"]);
-		if (dictThemeElement.ContainsKey("TopBG"))
+        SetUI(m_BackgroundImg, dictThemeElement["Background"]);
+        m_BackgroundImg.sprite = dictThemeElement["Background"].SpriteUI;
+        SetUI(m_TrophyImg, dictThemeElement["Trophy"]);
+        SetUI(m_HighScoreTxt, dictThemeElement["HighScoreTxt"]);
+        SetUI(m_MoneyTxt1, dictThemeElement["MoneyTxt"]);
+        SetUI(m_MoneyTxt2, dictThemeElement["MoneyTxt"]);
+        SetUI(m_ScoreTxt, dictThemeElement["ScoreTxt"]);
+        SetUI(m_PauseBtnImg, dictThemeElement["PauseBtn"]);
+        SetUI(m_MoneyPanel1, dictThemeElement["MoneyPanel"]);
+        SetUI(m_MoneyPanel2, dictThemeElement["MoneyPanel2"]);
+        m_MoneyPanel2.color = m_MoneyPanel.color;
+        SetUI(m_ThemeIconImg, dictThemeElement["ThemeIcon"]);
+        SetUI(m_GiftBot, dictThemeElement["GiftBot"]);
+        SetUI(m_GiftTop, dictThemeElement["GiftTop"]);
+        SetUI(m_CostSkill3, dictThemeElement["CostSkillTxt"]);
+        SetUI(m_CostSkillUndo, dictThemeElement["CostSkillTxt"]);
+        if (dictThemeElement.ContainsKey("TopBG"))
 		{
 			m_IngameTopBG.gameObject.SetActive(value: true);
 			SetUI(m_IngameTopBG, dictThemeElement["TopBG"]);

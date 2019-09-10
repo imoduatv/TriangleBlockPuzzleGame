@@ -692,7 +692,7 @@ public class UIManager : Singleton<UIManager>
 	public void Rate()
 	{
 		Singleton<SoundManager>.Instance.PlayButton();
-		Application.OpenURL("market://details?id=" + packageNameRateShare);
+		Application.OpenURL("market://details?id=com.blocks.triangle");
 	}
 
 	public void Sound()
